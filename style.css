@@ -1,0 +1,224 @@
+
+/* Set global styles */
+@font-face {
+  font-family: 'Cairo';
+  src: url('/fonts/cairo/cairo-regular.ttf') format('truetype'),
+       url('/fonts/cairo/cairo-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('/fonts/cairo/cairo-bold.ttf') format('truetype'),
+       url('/fonts/cairo/cairo-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+  font-family: 'Cairo', sans-serif;
+  align-content: center;
+}
+
+/* Style the header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+/* Style the navigation links */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	/* justify-content: space-between; */
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+
+}
+
+/* Style the hero section */
+.hero {
+	background-image: url("hero.jpg");
+	background-size: cover;
+	background-position: center;
+  background-color: #333;
+	color: #fff;
+	padding: 100px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 50px;
+	margin-top: 0;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 20px;
+	margin-bottom: 50px;
+  color: #fff;
+}
+
+.button {
+  background-color: #fff; /* Green */
+  border: none;
+  color: #333;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button_store{
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.199);
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button_store:hover{
+  padding: 16px 37px;
+}
+
+.button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Style the portfolio section */
+.portfolio {
+  background-color: #f6f7f8;
+  padding: 50px 0;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.app {
+  /* background-color: #ffffff; */
+  /* width: 90%; */
+  padding: 20px;
+  flex-wrap: wrap;
+  /* margin: 20px; */
+  text-align: center;
+}
+
+.app img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.171);
+}
+.app img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.404);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  transform: scale(1.04);
+  filter: brightness(90%);
+}
+
+
+.app h2 {
+  margin-bottom: 30px;
+}
+
+.app p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.app hr {
+  width: 80%;
+  margin-top: 20px;
+  border-top: 0.7px solid #000;
+}
+
+form{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+/* Style the form input */
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+}
+
+
+.title{
+  text-align: center;
+  font-size: 45px;
+}
+
+#message-body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* Style the form submit button */
+button[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
