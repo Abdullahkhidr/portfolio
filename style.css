@@ -62,8 +62,8 @@ nav a:hover {
 }
 
 section{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 /* Style the hero section */
@@ -138,7 +138,7 @@ section{
 .app {
   /* background-color: #ffffff; */
   /* width: 90%; */
-  padding: 20px;
+  padding: 0 20px;
   flex-wrap: wrap;
   /* margin: 20px; */
   text-align: center;
@@ -200,7 +200,7 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
 
 .title{
   text-align: center;
-  font-size: 45px;
+  font-size: 310%;
 }
 
 #message-body {
