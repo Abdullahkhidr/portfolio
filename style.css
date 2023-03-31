@@ -19,6 +19,7 @@
 body {
 	margin: 0;
 	padding: 0;
+  width: 100%;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
@@ -39,18 +40,19 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
+  width: 100%;
 	/* justify-content: space-between; */
 }
 
 nav li {
-	margin: 0 10px;
+	margin: 0 0px;
 }
 
 nav a {
 	color: #fff;
 	text-decoration: none;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 nav a:hover {
@@ -71,8 +73,9 @@ nav a:hover {
 }
 
 .hero h1 {
-	font-size: 50px;
+	font-size: 300%;
 	margin-top: 0;
+  text-align: center;
   color: #fff;
 }
 
@@ -86,12 +89,13 @@ nav a:hover {
   background-color: #fff; /* Green */
   border: none;
   color: #333;
-  border-radius: 10px;
+  border-radius: 1px;
   padding: 15px 32px;
   text-align: center;
+  font-weight: 600;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 90%;
 }
 
 .button_store{
@@ -100,8 +104,9 @@ nav a:hover {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.199);
   padding: 15px 32px;
-  font-size: 20px;
+  font-size: 100%;
   font-weight: 500;
+  margin: 10px 0;
 }
 
 .button_store:hover{
@@ -121,7 +126,7 @@ nav a:hover {
 
 .portfolio h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 230%;
   margin-bottom: 30px;
 }
 
@@ -171,9 +176,9 @@ form{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
   padding: 20px;
   background-color: white;
-  width: 100%;
+  /* width: 100%; */
   max-width: 400px;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 /* Style the form input */
