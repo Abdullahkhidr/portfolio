@@ -163,6 +163,7 @@ section{
 
 .app h2 {
   margin-bottom: 30px;
+  font-size: 170%;
 }
 
 .app p {
@@ -200,7 +201,7 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
 
 .title{
   text-align: center;
-  font-size: 310%;
+  font-size: 260%;
 }
 
 #message-body {
@@ -211,6 +212,10 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   resize: none;
+}
+
+#Contact-Form{
+  margin: 0 10px;
 }
 
 /* Style the form submit button */
@@ -229,6 +234,6 @@ button[type="submit"] {
 footer {
 	background-color: #333;
 	color: #fff;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
