@@ -61,6 +61,11 @@ nav a:hover {
 
 }
 
+section{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Style the hero section */
 .hero {
 	background-image: url("hero.jpg");
