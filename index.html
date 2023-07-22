@@ -106,36 +106,3 @@
 </body>
 
 </html>
-
-<?php
-
-if(isset($_POST['submit'])) {
-
-  // Get form data
-  $name = $_POST['form_fields']['name'];
-  $mobile = $_POST['form_fields']['mobile'];
-  $email = $_POST['form_fields']['email'];
-  $company = $_POST['form_fields']['company'];
-  $subject = $_POST['form_fields']['subject'];
-  $message = $_POST['message'];
-
-  // Email content
-  $to = 'abdullahkhidr52@gmail.com'; // Change this to your recipient email address
-  $subject = 'New message from ' . $name;
-  $body = "Name: $name\nMobile: $mobile\nEmail: $email\nCompany: $company\nSubject: $subject\n\nMessage:\n$message";
-
-  // Email headers
-  $headers = "From: $name <$email>\r\n";
-  $headers .= "Reply-To: $email\r\n";
-  $headers .= "MIME-Version: 1.0\r\n";
-  $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
-
-  // Send email
-  if(mail($to, $subject, $body, $headers)) {
-    echo 'Your message has been sent successfully.';
-  } else {
-    echo 'There was a problem sending your message. Please try again later.';
-  }
-
-}
-?>
